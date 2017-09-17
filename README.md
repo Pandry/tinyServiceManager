@@ -1,8 +1,10 @@
 # tinyServiceManager
 ## Notice
-### This scripts requires the www-data user to execute sudo commands without password authentication!
-### This could represent a HUGE security problems in case some php files could allow REMOTE CODE EXECUTION
-### You've been advised
+**This scripts requires the www-data user to execute sudo commands without password authentication!**
+
+**This could represent a HUGE security problems in case some php files could allow REMOTE CODE EXECUTION**
+
+**You've been advised**
 
 ## Description
 This project is all about a tiny PHP page you can put on your webserver to check and manage some services.
