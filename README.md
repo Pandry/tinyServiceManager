@@ -10,6 +10,8 @@ In the above example you can read some services: hhvm, php5-fpm, nginx, sshd and
 Of those, you can only change the status of hhvvm and php5.
 The resulting page should be like this one:
 ![](https://i.imgur.com/nJnrkYB.png)
+The circle next to the name indicates the status of the service (red means the service is off, green means it's on)
+![](https://i.imgur.com/qzPWZ4l.png)
 
 
 # Thanks
