@@ -63,7 +63,7 @@ foreach($allowedServices as $serv) { ?>
     <div class="service">
         <?php
 	foreach($serv[1] as $action) {
-		echo "<a onclick=\"serviceAction(this)\" class=\"$action\" value=\"$serv[0]\" action=\"$action\"></a>\n";
+		echo "<a onclick=\"serviceAction(this)\" class=\"$action\" value=\"$serv[0]\" action=\"$action\" title=\"$action\"></a>\n";
 	}
 
 ?>
