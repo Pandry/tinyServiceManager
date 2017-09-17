@@ -18,6 +18,21 @@ The resulting page should be like this one:
 The circle next to the name indicates the status of the service (red means the service is off, green means it's on)
 ![](https://i.imgur.com/qzPWZ4l.png)
 
+## Allowing the script to execute sudo commands
+To allow the script to execute sudo command you need to allor your webserver user (usually the `www-data` user) to execute sudo action.
+You can accomplish that by typing this command (as sudo):
+```
+# visudo
+``` 
+And adding this line:
+```
+www-data ALL=NOPASSWD: ALL
+```
+
+
+# Requirements
+This script requires the sudo command to be installed, and (obviously) a webserver capable of serving PHP files
+
 # Thanks
 This page is based on the Jens Motyka's login template (that you can find [here](https://codepen.io/clein/pen/xnmKL))
 
