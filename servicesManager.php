@@ -109,7 +109,7 @@ function loadXMLDoc(url) {
 
 // Set password on start
 if (sessionStorage.getItem('password') != null){
-  document.getElementById("pwd").value = essionStorage.getItem('password');
+  document.getElementById("pwd").value = sessionStorage.getItem('password');
 }
 </script>
 </body>
