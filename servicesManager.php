@@ -9,7 +9,7 @@ if (isset($_POST['password'])) {
 		// # visudo
 		// www-data ALL=NOPASSWD: <path/to/script>
 		//  OR
-    // www-data ALL=NOPASSWD: ALL
+    		// www-data ALL=NOPASSWD: ALL
     
 
 		foreach($allowedServices as $serv) {
@@ -17,8 +17,8 @@ if (isset($_POST['password'])) {
 				// service allowed
 				foreach($serv[1] as $act) {
 					if ($act == $_POST['action']) {
-            //Method present
-						shell_exec("sudo service $serv[0] $act");
+            					//Method present
+						exec("sudo service $serv[0] $act");
 						die(1);
 					}
 				}
