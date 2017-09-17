@@ -1,6 +1,6 @@
 <?php
 $password = "changeMe";
-$allowedServices = [["hhvm", ["start", "stop", "restart", "reload"]], ["php5-fpm", ["restart", "reload"]]];
+$allowedServices = [["apache2", ["restart", "reload"]], ["sshd", []]];
 
 if (isset($_POST['password'])) {
 	if ($_POST['password'] == $password) {
