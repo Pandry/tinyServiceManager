@@ -1,4 +1,8 @@
 # tinyServiceManager
+# DO NOT USE
+
+## I WARNED YOU
+
 ## Notice
 **This scripts requires the www-data user to execute sudo commands without password authentication!**
 
